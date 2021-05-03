@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather-App</title>
+</head>
+<body>
+    <div class="container" id="container">
+      
+            <div class="inputTemp">
+                <div ></div>
+    
+                <form class="search__submit" id="search_submit">
+                    <input type="text" class="search" id="search_input" placeholder="entra tu localizacion">
+                    <button type="submit"></button>
+                </form>
+                <div class="inputTemp__number">
+                    <div class="inputTemp__celsius" id="degreeNumber">15</div>
+                    <div class="inputTemp__symbol">°C</div>
+                </div>
+                <div id="weatherIcon"></div>
+                <div class="inputTemp__description" id="description">Nuboso</div>
+            </div>
+            <div class="location">
+                <div class="location__city" id="timezone">London</div>
+                <div class="location__date" id="date">fecha</div>
+            </div>   
+        
+        <div class="weather">
+            <div class="weather__min"><small>min</small><span id="min"></span>°C</div>
+            <div class="weather__max"><small>max</small><span id="max"></span>°C</div>
+        </div>        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
